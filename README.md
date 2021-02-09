@@ -7,11 +7,13 @@ The dashboard was deployed using Heroku and can be viewed <a href="https://ymgco
 ## Data Sources
 - [Centre for Health Protection, Hong Kong](https://www.chp.gov.hk/)
 - [Coronavirus Source Data, Wikipedia](https://en.wikipedia.org/wiki/COVID-19_pandemic_cases)
+- ___________ (for geospatial information on hong kong - HK Shapefiles)
 
 ## Technology Stack Used
 - Python (numpy + pandas + requests : For data-preprocessing )
 - Plotly Dash (For building dashboard )
 - Heroku (For deploying dashboard )
+- Mapbox (used as basemap )
 
 ## Instructions for deploying the app on heroku:
 - Install the libraries as listed in the requirements.txt file
